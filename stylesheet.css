@@ -14,13 +14,22 @@
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
   }
   p{
     font-family: var(--heading-font-family);
     color: var(--accent-color);
   }
+
   .label{
     font-family: var(--heading-font-family);
     color: var(--accent-color);
@@ -142,7 +151,7 @@
     border-radius: 15px;
     width: 70%;
     padding: 3rem;
-    margin:10%;
+    margin:7%;
     background-color: #3f5f63;
     display: flex;
     flex-direction: column;
